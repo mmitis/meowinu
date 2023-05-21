@@ -8,6 +8,7 @@ const stats = [
 export const History = () => {
     return (
         <div className="bg-teal-900 py-24 sm:py-32">
+            {/* @ts-expect-error */}
             <a name="history" />
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
@@ -72,14 +73,14 @@ export const History = () => {
                                 </p>
                                 <p className="mt-8">
                                     As the value of MeowInu grew, the dogs grew increasingly jealous
-                                    and resentful of the cats' success. They saw <strong className="text-teal-100">MeowInu</strong> as a threat
+                                    and resentful of the cats&rsquo; success. They saw <strong className="text-teal-100">MeowInu</strong> as a threat
                                     to their own power, and they plotted against the currency.
                                 </p>
                                 <p className="mt-8">
                                     But the cats who had started it all were determined to protect
                                     their investment and the community they had built around it.
                                     They rallied their allies together and organized a plan to defend
-                                    <strong className="text-teal-100"> MeowInu</strong> from the dogs' attacks.
+                                    <strong className="text-teal-100"> MeowInu</strong> from the dogs&rsquo; attacks.
                                 </p>
                                 <p className="mt-8">
                                     And so, the story of <strong className="text-teal-100">MeowInu</strong> became one of perseverance and bravery,

@@ -31,6 +31,7 @@ const timeline = [
 
 export const Timeline = () => {
     return <div className="bg-teal-800 w-full py-8">
+        {/* @ts-expect-error */}
         <a name="timeline" />
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8 mb-16 mt-16">

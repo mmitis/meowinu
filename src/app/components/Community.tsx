@@ -2,6 +2,7 @@ export const Community = () => {
 
     return (
         <div className="bg-teal-700 py-16 sm:py-16">
+            {/* @ts-expect-error */}
             <a name="community" />
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-4xl text-center">
